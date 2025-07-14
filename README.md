@@ -2,61 +2,44 @@
 
 [![n8n](https://img.shields.io/badge/built%20for-n8n-2087c3?logo=n8n&logoColor=white)](https://n8n.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A growing collection of **AI-powered workflow automations** for [n8n](https://n8n.io/), focusing on chatbots, memory, reasoning, and seamless integrations with platforms like Telegram and DeepSeek. Easily import, customize, and extend these workflows to supercharge your automation journey!
+A collaborative, open-source collection of **AI-powered workflow automations** for [n8n](https://n8n.io/). This repository is designed to help you automate, enhance, and personalize your workflows using the latest in AI, chatbots, memory, and integrations with popular platforms like Telegram, DeepSeek, and more.
 
 ---
 
 ## ✨ Features
-- **Ready-to-use n8n workflow JSON files** for AI and automation tasks
-- **Telegram AI Assistant** with memory and context awareness
-- **DeepSeek integration** for advanced reasoning and chat
+- **Ready-to-use n8n workflow JSON files** for a variety of AI and automation tasks
+- **Integrations** with messaging platforms, AI models, memory tools, and more
 - **Long-term and session memory** for personalized user experiences
-- **Modular structure** for easy addition of new workflows
-- **Open-source, extensible, and community-driven**
+- **Modular and extensible**—easily add your own workflows
+- **Open-source and community-driven**
 
 ---
 
-## 📂 Workflows Included
-- `workflows/telegram-ai-assistant-memory.json`  
-  > Telegram AI assistant with memory, DeepSeek reasoning, and Google Docs long-term memory integration.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```sh
-git clone https://github.com/AyoubEttalbi/n8n-workflow.git
-cd n8n-workflow
-```
-
-### 2. Import a Workflow into n8n
-1. Open your n8n instance (self-hosted or cloud).
-2. Go to the workflow editor.
-3. Click the menu (three dots) > **Import from File**.
-4. Select the desired JSON file from the `workflows/` directory (e.g., `telegram-ai-assistant-memory.json`).
-5. Configure any required credentials (Telegram Bot, Google Docs, DeepSeek, etc.).
-6. Activate and enjoy your new automation!
+## 📂 How to Use
+1. Browse the `workflows/` directory for available automations.
+2. Download any workflow JSON file you want to use.
+3. In your n8n instance, go to the workflow editor.
+4. Click the menu (three dots) > **Import from File**.
+5. Select the JSON file and import.
+6. Configure any required credentials or environment variables as described in the workflow or README.
 
 ---
 
 ## 🛠️ Requirements
 - [n8n](https://n8n.io/) (self-hosted or cloud)
-- Telegram Bot credentials
-- Google Docs API credentials (for memory)
-- DeepSeek API key (for advanced AI reasoning)
+- Credentials for any services used by the workflows (e.g., Telegram, Google Docs, DeepSeek, etc.)
 
 ---
 
 ## 🤝 Contributing
-Want to add your own AI workflow? Contributions are welcome!
+We welcome contributions from the community!
 
-1. Fork this repo
+1. Fork this repository
 2. Add your workflow JSON to the `workflows/` directory
-3. Update this README with a description of your workflow
+3. Update the README with a brief description of your workflow (optional)
 4. Open a pull request
 
-Please include setup instructions and a brief description for each new workflow.
+Please include setup instructions and a short description for each new workflow.
 
 ---
 
